@@ -146,7 +146,7 @@ const FlipFlopPage = () => {
   };
 
   // diagram path map: try new *_ff.jpg naming, fallback to existing names
-  const basePath = './assets/flipflop';
+  const basePath = '/assets/flipflop';
   const typeKey = isSR ? 'SR' : isJK ? 'JK' : isT ? 'T' : 'D';
   // Try multiple candidates in order: _ff.png -> _ff.jpg -> plain .png -> plain .jpg
   const candidate1 = `${basePath}/${typeKey}_ff.png`;
@@ -428,4 +428,3 @@ const FlipFlopPage = () => {
 };
 
 export default FlipFlopPage;
-
